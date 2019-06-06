@@ -1,6 +1,6 @@
 $(document).ready(function(){
   console.log ("Jquery is loaded");
-  $("form").submit(function(event){
+  $("form#age-form").submit(function(event){
     event.preventDefault()
     var age = parseInt($('#ageInput').val());
   if (age>=18){
@@ -11,4 +11,16 @@ $(document).ready(function(){
     $('#over18').hide();
   }
 });
+
+  $("form#address-form").submit(function(event){
+    event.preventDefault()
+    var address = $("#addressInput").val();
+  if (address <= 49999){
+    $().show();
+  } else if (address >=50000) {
+    $().show();
+  } else {
+    $().show();
+  }
+  }
 });

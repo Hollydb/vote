@@ -14,8 +14,8 @@
       <h1> Welcome to the raddest voting site around!</h1>
       </div>
 
-      <form>
-        <div class="form-group">
+      <form id="age-form">
+        <div class="form-group age-form">
           <label for="ageInput">Age</label>
           <input type="age" class="form-control" id="ageInput" placeholder="age">
         </div>
@@ -35,6 +35,26 @@
       <div id="under18">
         <h4>Your not old enough yet, but here is how you can engage</h4>
         <a href="https://www.collegeboard.org/">Stay in school kids!</a>
+      </div>
+
+      <h5>Find the nearest ballot box dropoff!</h5>
+
+      <form id="address-form">
+        <div class="form-group address-form" >
+          <label for="addressInput">Address</label>
+          <input type="address" class="form-control" id="addressInput" placeholder="Enter your address!">
+        </div>
+        <button type="submit" class="btn btn-default" id="adSubmit">Submit</button>
+      </form>
+
+      <div class="west">
+        <p>West coast <a href="https://www.sos.ca.gov/elections/voters-choice-act/vca-voting-locations/">voting centers</a></p>
+      </div>
+      <div class="mid">
+        <p>Mid West <a href="http://www.nebraska.gov/featured/elections-voting/">voting centers</a></p>
+      </div>
+      <div class="east">
+        <p>East coast <a href="https://www.vote.nyc.ny.us/html/voters/where.shtml">voting centers</a></p>
       </div>
     </div>
   </body>
