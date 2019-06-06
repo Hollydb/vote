@@ -14,3 +14,15 @@ body {
 #over18 {
   display: none;
 }
+
+.west {
+  display: none;
+}
+
+.mid {
+  display: none;
+}
+
+.east {
+  display: none;
+}
