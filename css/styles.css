@@ -1,0 +1,16 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.jumbotron {
+  color:black;
+}
+
+#under18 {
+  display: none;
+}
+
+#over18 {
+  display: none;
+}
